@@ -1,89 +1,20 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Roman Ent Records</title>
-  <style>
-    * { box-sizing: border-box; }
-    body { margin: 0; background: #08090c; color: white; font-family: Arial, sans-serif; }
-    nav { position: sticky; top: 0; z-index: 5; background: #090909ee; padding: 18px 5%; border-bottom: 1px solid #333; }
-    nav b { letter-spacing: 4px; }
-    .hero { min-height: 760px; padding: 80px 6%; display: grid; grid-template-columns: 1fr 480px; gap: 50px; align-items: center; background: linear-gradient(90deg,#000e,#0009), url('home.jpg') center/cover; }
-    h1 { font-size: 72px; line-height: .95; margin: 10px 0 24px; }
-    .red, small { color: #ef4444; }
-    .featured, .trs { background: #151515dd; border: 1px solid #333; border-radius: 28px; padding: 26px; }
-    .featured img { width: 100%; border-radius: 22px; }
-    .spotify { display: block; background: #1DB954; color: #000; font-weight: bold; text-align: center; padding: 15px; border-radius: 14px; text-decoration: none; margin-top: 15px; }
-    section { padding: 80px 6%; }
-    .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
-    .card-link { color: inherit; text-decoration: none; display: block; border-radius: 22px; }
-    .card { height: 100%; background: #171717; border: 1px solid #333; border-radius: 22px; overflow: hidden; transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease; }
-    .card-link:hover .card, .card-link:focus .card { transform: translateY(-4px); border-color: #1DB954; box-shadow: 0 12px 30px #0008; }
-    .card img { width: 100%; aspect-ratio: 1; object-fit: cover; }
-    .pad { padding: 20px; }
-    .pad h3 { font-size: 22px; margin: 8px 0; }
-    .trs { display: grid; grid-template-columns: 320px 1fr; gap: 32px; align-items: center; background: #180d26; }
-    .trs img { width: 100%; border-radius: 20px; }
-    footer { padding: 30px 6%; border-top: 1px solid #333; color: #888; }
-    @media (max-width: 850px) { .hero, .trs { grid-template-columns: 1fr; } .grid { grid-template-columns: repeat(2,1fr); } h1 { font-size: 50px; } }
-    @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } }
-  </style>
-</head>
-<body>
-  <nav><b>ROMAN ENT <span class="red">RECORDS</span></b></nav>
-
-  <div class="hero">
-    <div>
-      <small>INDEPENDENT • CINEMATIC • MULTI-GENRE</small>
-      <h1>Music without<br><span style="color:#aaa">one lane.</span></h1>
-      <p>Roman Ent Records is a home for story-driven music across metal, dance, country, blues, rock and cinematic worlds.</p>
-    </div>
-    <div class="featured">
-      <h2>The Ghost of 17</h2>
-      <img src="the-ghost-of-17.jpeg" alt="The Ghost of 17">
-      <a class="spotify" href="https://open.spotify.com/track/0gLMM1gCvi1bYOyKWkuj3P?si=c843f6cfbd2a4da3" target="_blank" rel="noopener noreferrer">Listen on Spotify</a>
-    </div>
-  </div>
-
-  <section>
-    <small>THE ROSTER</small>
-    <h2>Artists &amp; Projects</h2>
-    <div class="grid">
-      <a class="card-link" href="https://open.spotify.com/artist/4I4Gy08gQkQlIoqK0rIvMx" target="_blank" rel="noopener noreferrer" aria-label="Open Ghosts of the Fallen on Spotify">
-        <article class="card"><img src="ghosts-of-the-fallen.png" alt="Ghosts of the Fallen"><div class="pad"><small>Metal</small><h3>Ghosts of the Fallen</h3><p>The Ghost of 17</p></div></article>
-      </a>
-      <a class="card-link" href="https://open.spotify.com/artist/2sbnArBy3Rh4gF6ejADomx?si=-lcpy6exRTuhmWVfRKOEcQ" target="_blank" rel="noopener noreferrer" aria-label="Open Kayla Mist on Spotify">
-        <article class="card"><img src="kayla.jpg" alt="Kayla Mist"><div class="pad"><small>Dance</small><h3>Kayla Mist</h3><p>Caught in the Rhythm</p></div></article>
-      </a>
-      <a class="card-link" href="https://open.spotify.com/artist/35yHK8xfKbOorRfq91jhSe?si=0_bwS0BCQDSlpGvmx5T1Iw" target="_blank" rel="noopener noreferrer" aria-label="Open Scare-lett on Spotify">
-        <article class="card"><img src="witches-new.jpg" alt="Scare-lett"><div class="pad"><small>Celtic / Atmospheric Metal</small><h3>Scare-lett</h3><p>Witches of the Vale</p></div></article>
-      </a>
-      <a class="card-link" href="https://open.spotify.com/artist/6zBrYmjxZoMVezXGWOEQ9O?si=sx7EtwR_QMeVLk9B0C4rqw" target="_blank" rel="noopener noreferrer" aria-label="Open Savannah R Cole on Spotify">
-        <article class="card"><img src="savannah.jpg" alt="Savannah R Cole"><div class="pad"><small>Country</small><h3>Savannah R Cole</h3><p>The Good, The Bad, The Ugly &amp; The Grace</p></div></article>
-      </a>
-      <a class="card-link" href="https://open.spotify.com/artist/0Tu4ql9NmZrGsiIVE2o5HQ?si=MW13hQ01RqyFYiP2e0CsQg" target="_blank" rel="noopener noreferrer" aria-label="Open The Guy Epson Band on Spotify">
-        <article class="card"><img src="guy-epson.png" alt="The Guy Epson Band"><div class="pad"><small>Blues</small><h3>The Guy Epson Band</h3><p>You Say Nothing</p></div></article>
-      </a>
-      <a class="card-link" href="https://open.spotify.com/artist/1Foh8yG0ieN6NfhfxBintp?si=mtOg4th4QcyY8LToeG_D3A" target="_blank" rel="noopener noreferrer" aria-label="Open The Daylight Orchestra on Spotify">
-        <article class="card"><img src="daylight.png" alt="The Daylight Orchestra"><div class="pad"><small>Cinematic / Multi-Genre</small><h3>The Daylight Orchestra</h3><p>Candice My Love</p></div></article>
-      </a>
-      <a class="card-link" href="https://open.spotify.com/artist/37wQh4XQBLyFkXdqqB1vG4?si=r0CtK6MHR6SCYZLcBUhXPw" target="_blank" rel="noopener noreferrer" aria-label="Open The Carolina 5 on Spotify">
-        <article class="card"><img src="carolina5.png" alt="The Carolina 5"><div class="pad"><small>Country</small><h3>The Carolina 5</h3><p>Uncle Joe’s Tales</p></div></article>
-      </a>
-      <a class="card-link" href="https://open.spotify.com/artist/735u0IH9E1EdfOikEnAFfj?si=KZp0LtZTREOwh4XrW8K2yw" target="_blank" rel="noopener noreferrer" aria-label="Open The Half Dead on Spotify">
-        <article class="card"><img src="half-dead.png" alt="The Half Dead"><div class="pad"><small>Rock</small><h3>The Half Dead</h3><p>Drink From the Well</p></div></article>
-      </a>
-    </div>
-  </section>
-
-  <section>
-    <div class="trs">
-      <img src="trs.png" alt="The Transistor Radio Show">
-      <div><small>STORY • MUSIC • BROADCAST LORE</small><h2>THE TRANSISTOR RADIO SHOW</h2><p>Step into the broadcast with Amp Anderson, music-driven stories, strange signals and a growing cast of characters.</p></div>
-    </div>
-  </section>
-
-  <footer>© 2026 Roman Ent Records • Music • Stories • Artists</footer>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Roman Ent Records</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#08090c;color:white;font-family:Arial,sans-serif}nav{position:sticky;top:0;z-index:5;background:#090909ee;padding:18px 5%;border-bottom:1px solid #333}nav b{letter-spacing:4px}.hero{min-height:760px;padding:80px 6%;display:grid;grid-template-columns:1fr 480px;gap:50px;align-items:center;background:linear-gradient(90deg,#000e,#0009),url('home.jpg') center/cover}h1{font-size:72px;line-height:.95;margin:10px 0 24px}.red,small{color:#ef4444}.featured,.trs{background:#151515dd;border:1px solid #333;border-radius:28px;padding:26px}.featured img{width:100%;border-radius:22px}.spotify{display:block;background:#1DB954;color:#000;font-weight:bold;text-align:center;padding:15px;border-radius:14px;text-decoration:none;margin-top:15px}section{padding:80px 6%}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.card-link,.trs-link{color:inherit;text-decoration:none;display:block;border-radius:22px}.card{height:100%;background:#171717;border:1px solid #333;border-radius:22px;overflow:hidden;transition:.2s}.card-link:hover .card,.card-link:focus .card{transform:translateY(-4px);border-color:#1DB954;box-shadow:0 12px 30px #0008}.card img{width:100%;aspect-ratio:1;object-fit:cover}.pad{padding:20px}.pad h3{font-size:22px;margin:8px 0}.trs{display:grid;grid-template-columns:320px 1fr;gap:32px;align-items:center;background:#180d26;transition:.2s}.trs img{width:100%;border-radius:20px}.trs-link:hover .trs,.trs-link:focus .trs{transform:translateY(-4px);border-color:#ff0033;box-shadow:0 12px 30px #0008}.contact{text-align:center;max-width:900px;margin:0 auto;background:#151515;border:1px solid #333;border-radius:28px;padding:42px 28px}.contact p{color:#ccc;line-height:1.6}.contact-button{display:inline-block;margin-top:14px;padding:15px 24px;border-radius:14px;background:#ef4444;color:white;font-weight:bold;text-decoration:none}footer{padding:30px 6%;border-top:1px solid #333;color:#888}@media(max-width:850px){.hero,.trs{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}h1{font-size:50px}}@media(max-width:520px){.grid{grid-template-columns:1fr}}
+</style></head><body>
+<nav><b>ROMAN ENT <span class="red">RECORDS</span></b></nav>
+<div class="hero"><div><small>INDEPENDENT • CINEMATIC • MULTI-GENRE</small><h1>Music without<br><span style="color:#aaa">one lane.</span></h1><p>Roman Ent Records is a home for story-driven music across metal, dance, country, blues, rock and cinematic worlds.</p></div><div class="featured"><h2>The Ghost of 17</h2><img src="the-ghost-of-17.jpeg" alt="The Ghost of 17"><a class="spotify" href="https://open.spotify.com/track/0gLMM1gCvi1bYOyKWkuj3P?si=c843f6cfbd2a4da3" target="_blank" rel="noopener noreferrer">Listen on Spotify</a></div></div>
+<section><small>THE ROSTER</small><h2>Artists &amp; Projects</h2><div class="grid">
+<a class="card-link" href="https://open.spotify.com/artist/4I4Gy08gQkQlIoqK0rIvMx" target="_blank" rel="noopener noreferrer"><article class="card"><img src="ghosts-of-the-fallen.png" alt="Ghosts of the Fallen"><div class="pad"><small>Metal</small><h3>Ghosts of the Fallen</h3><p>The Ghost of 17</p></div></article></a>
+<a class="card-link" href="https://open.spotify.com/artist/2sbnArBy3Rh4gF6ejADomx?si=-lcpy6exRTuhmWVfRKOEcQ" target="_blank" rel="noopener noreferrer"><article class="card"><img src="kayla.jpg" alt="Kayla Mist"><div class="pad"><small>Dance</small><h3>Kayla Mist</h3><p>Caught in the Rhythm</p></div></article></a>
+<a class="card-link" href="https://open.spotify.com/artist/35yHK8xfKbOorRfq91jhSe?si=0_bwS0BCQDSlpGvmx5T1Iw" target="_blank" rel="noopener noreferrer"><article class="card"><img src="witches-new.jpg" alt="Scare-lett"><div class="pad"><small>Celtic / Atmospheric Metal</small><h3>Scare-lett</h3><p>Witches of the Vale</p></div></article></a>
+<a class="card-link" href="https://open.spotify.com/artist/6zBrYmjxZoMVezXGWOEQ9O?si=sx7EtwR_QMeVLk9B0C4rqw" target="_blank" rel="noopener noreferrer"><article class="card"><img src="savannah.jpg" alt="Savannah R Cole"><div class="pad"><small>Country</small><h3>Savannah R Cole</h3><p>The Good, The Bad, The Ugly &amp; The Grace</p></div></article></a>
+<a class="card-link" href="https://open.spotify.com/artist/0Tu4ql9NmZrGsiIVE2o5HQ?si=MW13hQ01RqyFYiP2e0CsQg" target="_blank" rel="noopener noreferrer"><article class="card"><img src="guy-epson.png" alt="The Guy Epson Band"><div class="pad"><small>Blues</small><h3>The Guy Epson Band</h3><p>You Say Nothing</p></div></article></a>
+<a class="card-link" href="https://open.spotify.com/artist/1Foh8yG0ieN6NfhfxBintp?si=mtOg4th4QcyY8LToeG_D3A" target="_blank" rel="noopener noreferrer"><article class="card"><img src="daylight.png" alt="The Daylight Orchestra"><div class="pad"><small>Cinematic / Multi-Genre</small><h3>The Daylight Orchestra</h3><p>Candice My Love</p></div></article></a>
+<a class="card-link" href="https://open.spotify.com/artist/37wQh4XQBLyFkXdqqB1vG4?si=r0CtK6MHR6SCYZLcBUhXPw" target="_blank" rel="noopener noreferrer"><article class="card"><img src="carolina5.png" alt="The Carolina 5"><div class="pad"><small>Country</small><h3>The Carolina 5</h3><p>Uncle Joe’s Tales</p></div></article></a>
+<a class="card-link" href="https://open.spotify.com/artist/735u0IH9E1EdfOikEnAFfj?si=KZp0LtZTREOwh4XrW8K2yw" target="_blank" rel="noopener noreferrer"><article class="card"><img src="half-dead.png" alt="The Half Dead"><div class="pad"><small>Rock</small><h3>The Half Dead</h3><p>Drink From the Well</p></div></article></a>
+</div></section>
+<section><a class="trs-link" href="https://www.youtube.com/@TransistorRadioShow" target="_blank" rel="noopener noreferrer"><div class="trs"><img src="trs.png" alt="The Transistor Radio Show"><div><small>STORY • MUSIC • BROADCAST LORE</small><h2>THE TRANSISTOR RADIO SHOW</h2><p>Step into the broadcast with Amp Anderson, music-driven stories, strange signals and a growing cast of characters.</p><strong>Watch on YouTube</strong></div></div></a></section>
+<section><div class="contact"><small>CONTACT &amp; LICENSING</small><h2>Bring the right story to life.</h2><p>Interested in licensing music from the Roman Ent Records catalog? Music is available across metal, dance, country, blues, rock and cinematic styles.</p><p><strong>Licensing • Sync • Media • Business Inquiries</strong></p><a class="contact-button" href="mailto:romanentrecords@gmail.com?subject=Roman%20Ent%20Records%20Business%20or%20Licensing%20Inquiry">Email Roman Ent Records</a></div></section>
+<footer>© 2026 Roman Ent Records • Music • Stories • Artists</footer></body></html>
